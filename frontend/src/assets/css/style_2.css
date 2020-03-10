@@ -1,0 +1,293 @@
+#partners .pd {
+    padding: 25px 0;
+  }
+  #partners h1 {
+    font-size: 27.59px;
+    font-size: 1.724375rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DB0B63;
+    padding-bottom: 30px;
+  }
+  #partners h2 {
+    font-size: 16.67px;
+    font-size: 1.041875rem;
+    color: #DB0B63;
+    text-align: center;
+  }
+  #partners button {
+    font-size: 20.85px;
+    font-size: 1.303125rem;
+    background-color: #DB0B63;
+    color: #FFFFFF;
+  }
+  
+  #about {
+    padding: 0 !important;
+  }
+  #about .first-about {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+  #about #text-padding p {
+    font-size: 0.74rem;
+    padding-top: 10px;
+  }
+  #about h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 24px 0;
+    color: #DB0B63;
+  }
+  #about button {
+    font-weight: 400;
+  }
+  #about h2 {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    color: #606060;
+    font-weight: 400;
+  }
+  #about h3 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin-top: -7px;
+    color: #DB0B63;
+    font-style: italic;
+    font-weight: 600;
+  }
+  @media screen and (min-width: 992px) {
+    #about .separator {
+      border-right: 2px solid #FF0365;
+    }
+  }
+  #about .gray-sec {
+    background-color: #E5E5E5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #about #carousel h1 {
+    font-size: 1.5875rem !important;
+    font-weight: 600 !important;
+    text-transform: inherit;
+  }
+  #about #carousel .btn.btn_main {
+    background: #fff;
+    color: #FF0365;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+  #about #carousel .btn.btn_main:hover, #about #carousel .btn.btn_main:focus {
+    background: #FF0365;
+    color: #fff;
+  }
+  #about .carousel {
+    background-image: url("../img/about2.jpg");
+    background-position: center;
+  }
+  #about .carousel img {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: 80px;
+  }
+  #about .carousel .btn_main {
+    margin-bottom: 80px;
+  }
+  #about p {
+    font-size: 1rem;
+  }
+  #about .madeforwoman {
+    background-color: #FF0365;
+    color: #fff;
+    padding: 3rem;
+  }
+  #about .madeforwoman .btn.btn_main {
+    background: #fff;
+    color: #FF0365;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+  #about .madeforwoman .btn.btn_main:hover, #about .madeforwoman .btn.btn_main:focus {
+    background: #FF0365;
+    color: #fff;
+  }
+  #about #travel {
+    padding: 3rem;
+  }
+  #about #travel h1 {
+    font-size: 1.88rem !important;
+    font-weight: 600 !important;
+    padding: 15px;
+  }
+  #about #travel p {
+    padding: 15px;
+  }
+  #about .btn.btn_main {
+    margin-top: 30px;
+    font-size: 0.8rem;
+  }
+  #about .womantrip {
+    padding: 0;
+  }
+  #about .womantrip img {
+    max-height: 530.66px;
+  }
+  
+  #about .madeforwoman p {
+    font-style: italic !important;
+    padding-top: 50px;
+  }
+  #about .madeforwoman img {
+    width: 65%;
+  }
+  
+  #banner {
+    padding: 0 !important;
+  }
+  #banner #bannerimage {
+    background-image: url("../img/about4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  #banner #bannerimage h1 {
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 180px;
+  }
+  #banner #bannerimage ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  #banner #bannerimage .fa {
+    color: #fff;
+    font-size: 26px;
+  }
+  #banner .pink-sec {
+    background-color: #DB0B63;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  #banner .pink-sec .fa {
+    margin: 5px;
+  }
+  #banner .pink-sec .btn.btn_main {
+    background: #fff;
+    color: #DB0B63;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-size: 0.8rem;
+  }
+  #banner .pink-sec .btn.btn_main:hover, #banner .pink-sec .btn.btn_main:focus {
+    background: #FF0365;
+    color: #fff;
+  }
+  #banner .pink-sec p {
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  #banner h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #DB0B63;
+  }
+  @media screen and (min-width: 992px) {
+    #banner .separator {
+      border-right: 2px solid #FF0365;
+    }
+  }
+  #banner .gray-sec {
+    background-color: #E5E5E5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #banner #carousel h1 {
+    font-size: 1.5875rem !important;
+    font-weight: 600 !important;
+    text-transform: inherit;
+  }
+  #banner #carousel .btn.btn_main {
+    background: #fff;
+    color: #FF0365;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+  #banner #carousel .btn.btn_main:hover, #banner #carousel .btn.btn_main:focus {
+    background: #FF0365;
+    color: #fff;
+  }
+  #banner .carousel {
+    background-image: url("../img/about2.jpg");
+    background-position: center;
+  }
+  #banner .carousel img {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: 80px;
+  }
+  #banner .carousel .btn_main {
+    margin-bottom: 80px;
+  }
+  #banner p {
+    font-size: 1rem;
+  }
+  #banner .madeforwoman {
+    background-color: #FF0365;
+    color: #fff;
+    padding: 3rem;
+  }
+  #banner .madeforwoman .btn.btn_main {
+    background: #fff;
+    color: #FF0365;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+  #banner .madeforwoman .btn.btn_main:hover, #banner .madeforwoman .btn.btn_main:focus {
+    background: #FF0365;
+    color: #fff;
+  }
+  #banner .btn.btn_main {
+    margin-top: 30px;
+    font-size: 0.8rem;
+  }
+  #banner .womantrip {
+    padding: 0;
+  }
+  #banner .womantrip img {
+    max-height: 530.66px;
+  }
+  #banner .bg-image {
+    background-image: url(../img/about2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+  }
+  #banner .size {
+    height: 417px;
+  }
+  
+  /*# sourceMappingURL=style_2.css.map */

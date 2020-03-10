@@ -1,0 +1,138 @@
+#content #timeline .box-post{
+    padding: 10px 15px 0 15px;
+    border: 1px solid #f8f8f8;
+}
+
+#content #timeline .box-post .person-name{
+    color: #666;
+    font-weight: 600;    
+}
+
+#content #timeline .box-post .date-post{
+    color: #c1c0c0;
+    font-size: 13px;
+}
+
+#content #timeline .box-post .content-post{
+    color: #666;
+    font-size: 14px;
+}
+
+.fa-commenting-o{
+    color: #5c2af1;
+}
+
+#content #timeline .box-post .more-details{
+    background: #f9f9f9;
+    box-shadow: 0 0 .3em rgba(0,0,0, 0.1);
+    display: none;
+    position: absolute;
+    z-index: 99999;
+}
+
+#content #timeline .box-post .more-details ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#content #timeline .box-post .more-details ul li{
+    margin: 10px 20px;
+    padding: 5px 0;
+}
+
+#content #timeline .box-post .more-details ul li:not(:last-child){
+    border-bottom: 1px solid #ccc;
+}
+
+#content #timeline .box-post .more-details ul li a, #content #timeline .box-post .more-details ul li button{
+    color: #666;
+    cursor: pointer;
+}
+
+#content #timeline .post-avatar{
+    object-fit: cover;
+    zoom: .8;
+}
+
+#content #timeline #post #comments-block{
+    display: none;
+}
+
+#content #timeline #post #comments-block.active{
+    display: block !important;
+}
+
+#content #timeline #post #comments-block .new-comment{
+    background-color: #f8f8f8;
+    padding: 15px 5px;
+}
+
+#content #timeline #post #comments-block .new-comment #new_comment, #content #timeline #post #comments-block .comment-edit{
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    color: #666;
+    font-size: 15px;
+}
+
+#content #timeline #post #comments-block .new-comment #new_comment::placeholder{
+    color: #c1c0c0;
+}
+
+#content #timeline #post #comments-block .bb-1{
+    border-bottom: 1px solid #f8f8f8;
+}
+
+#content #timeline #post #comments-block .new-comment button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+#edit-post{
+    background: #f8f8f8;
+    border: 0;
+    color: #666;
+    font-size: 13px;
+    padding: 15px 0 0 15px;
+    resize: none;
+}
+
+.album-link{
+    color: #DB0B63;
+    transition: all .2s;
+}
+
+.album-link:hover{
+    color: #DB0B63;
+    text-decoration: underline !important;
+    text-decoration-color: #DB0B63 !important;
+}
+
+#timeline-bottom .title-without-posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timeline-bottom .title-without-posts::before, #timeline-bottom .title-without-posts::after{
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 2px;
+    background-color: #DB0B63;
+}
+
+#timeline-bottom .title-without-posts h2{
+    color: #DB0B63;
+}
+
+@media(max-width: 991px){
+    #post .content-post img{
+        height: auto;
+        width: 250px;
+        max-height: 130px;
+    }
+}
+
+#timeline-bottom{
+    padding: 30px 15px 0 15px;
+}

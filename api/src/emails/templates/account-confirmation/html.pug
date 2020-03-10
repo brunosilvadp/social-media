@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+html(lang="pt")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="import", href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;display=swap")
+        style(type='text/css').
+            *{
+                font-family: Ubuntu;
+            }
+            .color-header{
+                background-color: #f8f8f8;
+            }
+            
+            #main{
+                background-color: #ccc;
+                width: 100%;
+            }
+
+            .content{
+                max-width: 700px;
+                width: 100%;
+                background-color: #fff;
+            }
+            
+            #main table{
+                width: 100%
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .hello-user{
+                color: #000000;
+                font-size: 21px;
+                line-height: 36px;
+            }
+
+            .email-content{
+                padding: 30px 15px 20px 15px;
+            }
+
+            .mt-30{
+                margin-top: 30px;
+            }
+            
+            .email-content tr{
+                margin-top: 20px;
+            }
+
+            .email-content .text-about{
+                color: #666;
+            }
+            
+            .button-confirmation{
+                padding: 10px 15px;
+                background-color: #DB0B63;
+                color: #fff;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+            .button-confirmation:hover{
+                background-color: rgba(219,11,99,.8) !important
+            }
+
+            .copyright{
+                background-color: #DB0B63;
+                padding: 20px 15px;
+                margin-top: 30px;
+            }
+            .site-name{
+                font-weight: 600;
+                color: #fff;
+            }
+    body
+        table#main(border="0", cellpadding="0", cellspacing="0")
+            tr
+                td(align="center")
+                    table.content(border="0", cellpadding="0", cellspacing="0")
+                        tr
+                            td
+                                table(border="0", cellpadding="0", cellspacing="0")
+                                    tr.color-header.text-center
+                                        td
+                                            img(src="", alt="Logo", srcset="")
+                                table.email-content(border="0", cellpadding="0", cellspacing="0")
+                                    tr
+                                        td
+                                            table(border="0", cellpadding="0", cellspacing="0")
+                                                tr
+                                                    td.hello-user Olá, #{name}.
+                                    tr
+                                        td
+                                            table.mt-30(border="0", cellpadding="0", cellspacing="0")
+                                                tr
+                                                    td.text-about Clique no link abaixo para confirmar seu endereço de e-mail
+                                    tr
+                                        td
+                                            table.mt-30(border="0", cellpadding="0", cellspacing="0")
+                                                tr
+                                                    td
+                                                        a.button-confirmation(href=`http://localhost:3000/ativar/conta?verification=${token}`, target="_blank", rel="noopener noreferrer") CONFIRMAR E-MAIL
+                                table.copyright(border="0", cellpadding="0", cellspacing="0")
+                                    tr
+                                        td
+                                            table(border="0", cellpadding="0", cellspacing="0")
+                                                tr
+                                                    td(align="center")
+                                                        span.site-name Social Media
+
+
+                                            
+                                    
+
+                                    
+
+            
+            
+            
+            

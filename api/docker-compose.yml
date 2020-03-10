@@ -1,0 +1,50 @@
+version: '2'
+
+services:
+  # backend:
+  #   container_name: backend
+  #   image: bruunoosiilva/node-nodemon
+  #   volumes:
+  #     - .:/opt/app
+  #   ports:
+  #     - '3332:3333'
+  #   labels:
+  #      - traefik.port=3332
+  #      - traefik.docker.network=proxy
+  #      - traefik.frontend.rule=Host:api-social.local
+  #   environment:
+  #     - NODE_ENV=development
+  #   command: bash -c "nodemon --watch src --exec 'npm run dev'"
+  #   depends_on:
+  #     - mongo
+
+  postgres:
+    image: 'postgres'
+    ports:
+      - ${DB_PORT}:5432
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+      - POSTGRES_DB=${DB_NAME}
+    volumes:
+      - 'postgres:/var/lib/postgresql/data'
+
+  mongo:
+    image: mongo:latest
+    restart: always
+    ports:
+        - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGO_DB_DATABASE}
+    volumes:
+        - mongo:/var/lib/mongo/data
+
+volumes:
+  mongo:
+  postgres:
+  # backend:
+
+networks:
+  default:
+    external:
+      name: reverse_proxy

@@ -1,0 +1,55 @@
+#confirm-desactivate{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#confirm-desactivate .content-desactivate{
+    background-color: #ffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+#confirm-desactivate .content-desactivate .header-desactivate{
+    background-color: #f8f8f8;
+    padding: 10px 15px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px;
+}
+
+#confirm-desactivate .content-desactivate .header-desactivate p{
+    color: #000;
+    margin-bottom: 0 !important;
+}
+
+#confirm-desactivate .content-desactivate .header-desactivate i{
+    color: #6666;
+}
+
+#confirm-desactivate .content-desactivate .body-desactivate{
+    padding: 20px 15px;
+}
+
+#confirm-desactivate .content-desactivate p{
+    text-align: left !important;
+}
+
+#confirm-desactivate .content-desactivate .body-desactivate hr{
+    width: 100%;
+    margin: 30px auto;
+}
+
+#confirm-desactivate .content-desactivate .body-desactivate .action-buttons .btn{
+    font-size: 15px !important;
+    text-transform: uppercase;
+}

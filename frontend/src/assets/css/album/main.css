@@ -1,0 +1,104 @@
+#album .to-album-listing{
+    padding-top: 1.1rem !important;
+    margin-bottom: 1rem !important;
+    font-style: italic;
+}
+
+#album a:hover, #album a:hover .to-album-listing{
+    text-decoration: none;
+    color: #c1c0c0;
+}
+
+#album .add-new-photo hr{
+    width: 80%;
+    border-color: #DB0B63;
+}
+
+#album .add-new-photo i{
+    color: #DB0B63;
+    border: 1px solid #DB0B63;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+
+#album .add-new-photo span{
+    width: 20%;
+    font-style: italic;
+    color: #666;
+    position: relative;
+}
+
+#album .album-name{
+    color: #DB0B63;
+    font-size: 1.3rem;
+}
+
+#album .fa-image{
+    font-size: 23px;
+}
+
+#album .photo-item{
+    height: 300px;
+    position: relative;
+}
+
+#album .photo-item .overlay-photo-item{
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,.25);
+    display: none;
+}
+
+@media (max-width: 1023px){
+    #album .photo-item #destroy-photo, #album .photo-item .overlay-photo-item {
+        display: block !important;
+    }
+}
+
+#album .photo-item:hover .overlay-photo-item{
+    display: block;
+}
+
+#album .photo-item #destroy-photo{
+    display: none;
+}
+
+#album .photo-item #destroy-photo .trash-icon{
+    margin-right: 1.4rem;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    bottom: 0;
+}
+
+#album .photo-item:hover #destroy-photo{
+    display: block !important;
+}
+
+#album .photo-item .photo-bkg{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#loading{
+    position: fixed;
+    background-color: rgba(255,255,255,.5);
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading img{
+    align-self: center;
+}

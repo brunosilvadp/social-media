@@ -1,0 +1,58 @@
+#content #new-post #post{
+    background: #f8f8f8;
+    border: 0;
+    color: #666;
+    font-size: 13px;
+    padding: 15px 0 0 15px;
+    resize: none;
+}
+
+#content #new-post #post:focus{
+    outline: none;
+}
+
+#content #new-post .btn_main{
+    color: #DB0B63;
+    background: transparent;
+    font-size: 14px;
+    padding: 6px 25px;
+}
+
+#content #new-post .container{
+    border-bottom: 1px solid rgb(219, 11, 99, .4);
+}
+
+#content #new-post #add-image-post{
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+#content #new-post #image-post-listing{
+    height: 130px;
+    width: 100%;
+}
+
+#content #new-post #image-post-listing .overlay-image-post{
+    background-color: rgba(0, 0, 0, .3);
+    display: none;
+}
+
+#content #new-post #image-post-listing:hover .overlay-image-post{
+    display: block;
+}
+
+#content #new-post #image-post-listing .overlay-image-post .remove-post-image{
+    right: 5px;
+    top: 4px;
+}
+
+@media (max-width: 1023px){
+    #content #new-post #image-post-listing .overlay-image-post{
+        display: block;
+    }
+}
+
+#content-new-post{
+    background-color: #f8f8f8;
+    padding: 0 10px 10px 10px;
+}

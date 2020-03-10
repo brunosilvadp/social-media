@@ -1,0 +1,177 @@
+#listing-albums .album-item{
+    height: 300px;
+    max-height: 300px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#listing-albums .album-information .trash-icon {
+    z-index: 9999;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    display: none;
+}
+
+#listing-albums .album-item:hover .trash-icon {
+    display: block;
+}
+
+@media (min-width: 768px){
+    #listing-albums .album-item::before{
+        content: "";
+        width: 100%;
+        border-top: 1px solid #DB0B63;
+        border-right: 1px solid #DB0B63;
+        height: 101%;
+        position: absolute;
+        margin-top: -4px;
+        right: -4px;
+    }
+    
+    #listing-albums .album-item::after{
+        content: "";
+        width: 100%;
+        border-top: 1px solid #DB0B63;
+        border-right: 1px solid #DB0B63;
+        height: 101%;
+        position: absolute;
+        margin-top: -8px;
+        right: -8px;
+    }
+}
+
+#listing-albums .add-new-album span{
+    cursor: pointer;
+}
+
+#listing-albums .album-information{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+#listing-albums .album-information .album-name{
+    font-size: 1.3rem;
+}
+
+#listing-albums .album-information .quantity-photos{
+    font-style: italic;
+}
+
+#listing-albums .add-new-album hr{
+    width: 85%;
+    border-color: #DB0B63;
+}
+
+#listing-albums .add-new-album i{
+    color: #DB0B63;
+    border: 1px solid #DB0B63;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+
+#listing-albums .add-new-album span{
+    width: 15%;
+    font-style: italic;
+    color: #666;
+}
+
+#listing-albums a{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 99999;
+    left: 0;
+}
+
+#listing-albums #store-album{
+    width: 45%;
+    margin-left: 20px;
+    position: relative;
+    align-items: center;
+}
+
+#listing-albums #store-album #album_name{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 85%;
+    font-size: 15px;
+    color: #666;
+    padding: 5px 35px 5px 10px;
+}
+
+#listing-albums #store-album #album_name::placeholder{
+    color: #c1c0c0;
+}
+#listing-albums #store-album #submit-store-album{
+    position: absolute;
+    right: 55px;
+    margin-right: 10px;
+}
+
+#listing-albums .destroy-album{
+    right: 10px;
+    bottom: 10px;
+    z-index: 99999;
+}
+
+@media (min-width: 768px){
+    #listing-albums .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 22%;
+       
+    }
+
+    #listing-albums .col-md-3:not(:nth-child(4n+0)){
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px){
+    #listing-albums .add-new-album span{
+        width: 100% !important;
+    }
+
+    #listing-albums .text-left-sm{
+        text-align: left !important;            
+    }    
+
+    #listing-albums .add-new-album hr{
+        display: none;
+    }
+
+    #listing-albums #store-album {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #listing-albums #store-album #submit-store-album{
+        margin-right: 0;
+    }
+    
+    #listing-albums .trash-box{
+        right: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #listing-albums .add-new-album span{
+        width: 30%;
+    }
+
+    #listing-albums #store-album #submit-store-album{
+        margin-right: 0;
+        right: 50px;
+    }
+
+    #listing-albums #store-album{
+        width: 50%;
+    }
+}
+
+#listing-albums .trash-box{
+    right: 10px;
+    bottom: 10px;
+}

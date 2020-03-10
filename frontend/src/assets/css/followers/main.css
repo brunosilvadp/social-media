@@ -1,0 +1,15 @@
+#followers .friend-name{
+    color: #DB0B63;
+}
+
+#followers .friend-avatar{
+    border-radius: 50%;
+}
+
+#followers .remove-friend{
+    font-style: italic;
+}
+
+#followers .divisor-bottom{
+    border-bottom: 1px solid #f8f8f8;
+}

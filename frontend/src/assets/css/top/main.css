@@ -1,0 +1,132 @@
+#content #top-content{
+    height: 300px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+#content #top-content #user-avatar{
+    width: 260px;
+    height: 260px;
+    border: 2px solid #fff;
+    object-fit: cover;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+#content #top-content #edit-banner{
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+#content #top-content #edit-banner i{
+    color: #fff;
+}
+
+#content #top-content #user-avatar #edit-avatar{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0px;
+    bottom: 0;
+    display: flex;
+    overflow: hidden;
+    width: 160px;
+    justify-content: center;
+}
+
+#content #top-content #user-avatar label{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 0 !important;
+}
+
+#content #top-content #user-avatar #edit-avatar .content-edit-avatar::before{
+    width: 238px;
+    height: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background: rgba(0, 0, 0, .6);
+    content: '';
+    height: 264%;
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+    bottom: 0;
+    transition: top .13s ease-out;
+}
+
+#content #top-content h1{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 1.9rem;
+}
+
+#content #top-content p{
+    color: #fff;
+}
+
+@media(min-width: 320px) and (max-width: 1024px){
+    #content #top-content{
+        height: 200px;
+    }
+
+    #content #top-content #user-avatar{
+        width: 160px;
+        height: 160px;
+    }
+    #content #top-content #user-avatar #edit-avatar .content-edit-avatar::before{
+        width: 177px;
+        height: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        background: rgba(0, 0, 0, .6);
+        content: '';
+        height: 300%;
+        position: absolute;
+        right: -10px;
+        z-index: -1;
+        bottom: 0;
+        transition: top .13s ease-out;
+    }
+}
+
+#content #top-content #upload-avatar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,.5);
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-banner{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 424px){
+    #content #top-content h1{
+        font-size: 1.5rem;
+    }
+
+    #content #timeline .post-avatar{
+        width: 60px;
+        height: 60px;
+    }
+}

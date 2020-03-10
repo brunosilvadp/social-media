@@ -1,0 +1,30 @@
+#account-activate #account-activate-content{
+    background-color: #f8f8f8;
+}
+
+#account-activate #account-activate-content .header-account-activate{
+    background-color: #DB0B63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+#account-activate #account-activate-content .header-account-activate h2{
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 21px !important;
+}
+
+#account-activate #account-activate-content .body-account-activate{
+    padding: 25px 15px;
+}
+
+#account-activate #account-activate-content .footer-account-activate{
+    padding: 15px;
+}
+
+#account-activate #account-activate-content .footer-account-activate span{
+    color: #ccc;
+}

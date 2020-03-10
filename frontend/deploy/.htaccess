@@ -1,0 +1,7 @@
+# This is the .htaccess file in our document root.
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^$ http://127.0.0.1:3333/ [P,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+</IfModule>
